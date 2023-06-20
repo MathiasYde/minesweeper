@@ -1,13 +1,13 @@
 public class Int2D {
-	public static Int2D UP = new Int2D(0, -1);
-	public static Int2D DOWN = new Int2D(0, 1);
-	public static Int2D LEFT = new Int2D(-1, 0);
-	public static Int2D RIGHT = new Int2D(1, 0);
+	public static final Int2D UP = new Int2D(0, -1);
+	public static final Int2D DOWN = new Int2D(0, 1);
+	public static final Int2D LEFT = new Int2D(-1, 0);
+	public static final Int2D RIGHT = new Int2D(1, 0);
 
-	public static Int2D UP_LEFT = new Int2D(-1, -1);
-	public static Int2D UP_RIGHT = new Int2D(1, -1);
-	public static Int2D DOWN_LEFT = new Int2D(-1, 1);
-	public static Int2D DOWN_RIGHT = new Int2D(1, 1);
+	public static final Int2D UP_LEFT = UP.add(LEFT);
+	public static final Int2D UP_RIGHT = UP.add(RIGHT);
+	public static final Int2D DOWN_LEFT = DOWN.add(LEFT);
+	public static final Int2D DOWN_RIGHT = DOWN.add(RIGHT);
 
 	public int x;
 	public int y;
