@@ -1,0 +1,10 @@
+[package]
+name = "minesweeper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
+yew-autoprops = "0.4.1"
+log = "0.4.22"
+wasm-logger = "0.2.0"
