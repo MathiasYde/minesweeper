@@ -8,3 +8,4 @@ yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
 yew-autoprops = "0.4.1"
 log = "0.4.22"
 wasm-logger = "0.2.0"
+rand = "0.9.0-alpha.1"
