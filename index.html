@@ -4,13 +4,31 @@
     <meta charset="utf-8" />
     <title>Minesweeper</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <style>
+        * {
+            font-family: "VT323", monospace;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .cell p {
+            font-size: 1.75rem;
+            line-height: 0;
+        }
+
         .cell {
             background-color: gray;
             border-top: 4px solid #ccc;
             border-left: 4px solid #ccc;
             border-right: 4px solid #333;
             border-bottom: 4px solid #333;
+        }
+
+        #control {
+            background-color: lightblue;
         }
     </style>
 </head>
